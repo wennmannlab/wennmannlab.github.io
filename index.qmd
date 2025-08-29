@@ -1,0 +1,10 @@
+---
+title: "wennmannlab – Training and Materials"
+---
+
+# Welcome!
+
+Here you find **Tutorials**, **Courses** and **Slides**.
+
+- **Galaxy XYZ** → [Tutorial](tutorials/galaxy-xyz/index.qmd) · [Slides](tutorials/galaxy-xyz/slides.qmd)
+- **R-Intro** → [Tutorial](tutorials/r-intro/index.qmd) · [Slides](tutorials/r-intro/slides.qmd)
