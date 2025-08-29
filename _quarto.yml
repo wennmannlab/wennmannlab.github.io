@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Courses, Tutorials and Slides"
+  navbar:
+    title: Bioinformatic Course
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Sequencing techniques
+        href: Themen/01/01_Allgemeines.qmd
+      - text: Quality and Trim
+        href: Themen/02/02_DeskriptiveStats.qmd
+      - text: Assembly
+        href: Themen/03/03_Graph.qmd
+
+  page-footer: 
+    right:
+      - text: '<p>All content licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>'
+    border: true
+    background: "#f8f9fa"
+        
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    code-copy: true
+    toc: true
+
+editor: visual
+
+execute: 
+  freeze: auto
