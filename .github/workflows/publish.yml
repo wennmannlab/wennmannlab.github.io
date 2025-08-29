@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: quarto-dev/quarto-actions/setup@v3
-      - uses: quarto-dev/quarto-actions/publish@v3
+      - uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
