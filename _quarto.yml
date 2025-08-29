@@ -9,12 +9,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Sequencing techniques
-        href: Themen/01/01_Allgemeines.qmd
-      - text: Quality and Trim
-        href: Themen/02/02_DeskriptiveStats.qmd
-      - text: Assembly
-        href: Themen/03/03_Graph.qmd
 
   page-footer: 
     right:
